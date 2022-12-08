@@ -26,6 +26,7 @@ Typ.place(x=0,y=300)
 
 txt = ""
 
+
 def pasg():
     global txt,txtvar
     if "unpack"=="input":
