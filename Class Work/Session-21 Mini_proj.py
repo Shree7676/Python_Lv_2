@@ -97,7 +97,7 @@ def partition(arr, left, right):
 
     return i                                # divided position
 ss=bs=iso=ms=qs=0
-for x in range(1000):
+for x in range(10):
     l=random_10000()
 
     start=time.time()
@@ -132,7 +132,7 @@ for x in range(1000):
 
 dic={"selection sort":ss,"bubble sort":bs,"insertion sort":iso,"merge sort":ms} #,"quick sort":qs}
 for x in dic:
-    print(f"Time taken by {x}",dic[x]/1000)
+    print(f"Time taken for 10 loop {x}",dic[x])
 
 #got output after aprox 1 hr
 """
