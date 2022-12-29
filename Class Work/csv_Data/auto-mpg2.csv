@@ -1,0 +1,51 @@
+car name,mpg,displacement,horsepower,weight,acceleration
+mercury capri 2000,23,122,86,2220,14
+opel 1900,28,116,90,2123,14
+peugeot 304,30,79,70,2074,19.5
+fiat 124b,30,88,76,2065,14.5
+toyota corolla 1200,31,71,65,1773,19
+datsun 1200,35,72,69,1613,18
+volkswagen model 111,27,97,60,1834,19
+plymouth cricket,26,91,70,1955,20.5
+toyota corona hardtop,24,113,95,2278,15.5
+dodge colt hardtop,25,97.5,80,2126,17
+volkswagen type 3,23,97,54,2254,23.5
+chevrolet vega,20,140,90,2408,19.5
+ford pinto runabout,21,122,86,2226,16.5
+chevrolet impala,13,350,165,4274,12
+pontiac catalina,14,400,175,4385,12
+plymouth fury iii,15,318,150,4135,13.5
+ford galaxie 500,14,351,153,4129,13
+amc ambassador sst,17,304,150,3672,11.5
+mercury marquis,11,429,208,4633,11
+buick lesabre custom,13,350,155,4502,13.5
+oldsmobile delta 88 royale,12,350,160,4456,13.5
+chrysler newport royal,13,400,190,4422,12.5
+mazda rx2 coupe,19,70,97,2330,13.5
+amc matador (sw),15,304,150,3892,12.5
+chevrolet chevelle concours (sw),13,307,130,4098,14
+ford gran torino (sw),13,302,140,4294,16
+plymouth satellite custom (sw),14,318,150,4077,14
+volvo 145e (sw),18,121,112,2933,14.5
+volkswagen 411 (sw),22,121,76,2511,18
+peugeot 504 (sw),21,120,87,2979,19.5
+renault 12 (sw),26,96,69,2189,18
+ford pinto (sw),22,122,86,2395,16
+datsun 510 (sw),28,97,92,2288,17
+toyouta corona mark ii (sw),23,120,97,2506,14.5
+dodge colt (sw),28,98,80,2164,15
+toyota corolla 1600 (sw),27,97,88,2100,16.5
+buick century 350,13,350,175,4100,13
+amc matador,14,304,150,3672,11.5
+chevrolet malibu,13,350,145,3988,13
+ford gran torino,14,302,137,4042,14.5
+dodge coronet custom,15,318,150,3777,12.5
+mercury marquis brougham,12,429,198,4952,11.5
+chevrolet caprice classic,13,400,150,4464,12
+ford ltd,13,351,158,4363,13
+plymouth fury gran sedan,14,318,150,4237,14.5
+chrysler new yorker brougham,13,440,215,4735,11
+buick electra 225 custom,12,455,225,4951,11
+amc ambassador brougham,13,360,175,3821,11
+plymouth valiant,18,225,105,3121,16.5
+chevrolet nova custom,16,250,100,3278,18
