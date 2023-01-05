@@ -100,7 +100,7 @@ def compMove():
     for key in board.keys():
         if (board[key] == ' '):
             board[key] = bot
-            score = minimax(board, 0, False)
+            score = minimax(board, False)
             board[key] = ' '
             if (score > bestScore):
                 bestScore = score
@@ -110,7 +110,7 @@ def compMove():
     return
 
 
-def minimax(board, depth, isMaximizing):
+def minimax(board, isMaximizing):
     if (checkWhichMarkWon(bot)):
         return 1
     elif (checkWhichMarkWon(player)):
@@ -123,7 +123,7 @@ def minimax(board, depth, isMaximizing):
         for key in board.keys():
             if (board[key] == ' '):
                 board[key] = bot
-                score = minimax(board, depth + 1, False)
+                score = minimax(board, False)
                 board[key] = ' '
                 if (score > bestScore):
                     bestScore = score
@@ -134,7 +134,7 @@ def minimax(board, depth, isMaximizing):
         for key in board.keys():
             if (board[key] == ' '):
                 board[key] = player
-                score = minimax(board, depth + 1, True)
+                score = minimax(board, True)
                 board[key] = ' '
                 if (score < bestScore):
                     bestScore = score
