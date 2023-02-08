@@ -53,8 +53,7 @@ topics = [] # list of topics covered
 
 
 def checkTopic(topic):
-    pass
-
+    
     low = 0
     high = len(topics) - 1
     
@@ -105,4 +104,3 @@ while True:
     
     else:
         print("Invalid input")
- 

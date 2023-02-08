@@ -50,7 +50,6 @@ more chocolate.
 def countExtraChocolates(chocolates , wrap):
     # chocolates - number of chocolates
     # wrap - number of wrappers required
-    
     if chocolates < wrap :
         return 0
     
@@ -64,24 +63,16 @@ def countChocolates(money , price , wrap):
     # money - total money 
     # price - price of each chocolate
     # wrap - number of wrappers required to get 1 extra chocolate
-    
     chocolates = money//price
     
     extraChocolatesFromWrap = countExtraChocolates(chocolates , wrap)
     
     return chocolates + extraChocolatesFromWrap
-
 # main program 
-
-money = int(input("Enter the money you have : "));
-
-price = int(input("Enter the price of each chocolate : "));
-
-wrap = int(input("Enter the number of extra wrappers required to get 1 extra chocolate :")) ;
+money = int(input("Enter the money you have : "))
+price = int(input("Enter the price of each chocolate : "))
+wrap = int(input("Enter the number of extra wrappers required to get 1 extra chocolate :"))
 
 totalChocolates = countChocolates(money, price, wrap)
 
 print(totalChocolates)
-
-
-

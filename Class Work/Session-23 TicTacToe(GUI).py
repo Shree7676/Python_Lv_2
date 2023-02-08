@@ -108,7 +108,7 @@ def minimax(board, isMaximizing,btn):
         return 1
     elif status_minimax(btn)=="Draw":
         return 0
-    
+
     if isMaximizing:
         bestScore = -800
         for btn in BTN_LIST:
@@ -119,6 +119,7 @@ def minimax(board, isMaximizing,btn):
                 if (score > bestScore):
                     bestScore = score
         return bestScore
+
     else:
         bestScore = 800
         for btn in BTN_LIST:
@@ -129,7 +130,7 @@ def minimax(board, isMaximizing,btn):
                 if (score < bestScore):
                     bestScore = score
         return bestScore
-        
+
 
 def computer_move():
     bestScore = -800
@@ -154,11 +155,9 @@ def fnc(event):
         btn=event.widget
         if spaceIsFree(btn):
             btn["text"] = PLAYER
-            # IF MULTIPLAYER():
             if a=="multiplayer":
                 changeplr(PLAYER,btn)  # better way is to have 2 players
                 status(btn)
-            # ELSE >> COMPUTER MOVE
             else:
                 btn.config(bg="green")
                 computer_move()

@@ -65,24 +65,23 @@ Each move consists of taking the upper disk from one of the stacks and placing i
 No disk may be placed on top of a smaller disk.
 Image illustration for 3 disks :
 
- 
 Chirag observed that the same steps are repeated again and again in the Tower of Hanoi problem. He thought this problem can be solved with the help of recursion in python. His friend Chris said it is impossible. Write a program in python and create a function to solve the Tower of Hanoi problem. Also, share your program with your programmer friends.
 The output of the program should look like this:
 If there are only two disks:
 Input: 2
 Output: Disk 1 moved from A to B
-         Disk 2 moved from A to C
-         Disk 1 moved from B to C
+        Disk 2 moved from A to C
+        Disk 1 moved from B to C
 
 If there are three disks:
 Input: 3
 Output: Disk 1 moved from A to C
-         Disk 2 moved from A to B
-         Disk 1 moved from C to B
-         Disk 3 moved from A to C
-         Disk 1 moved from B to A
-         Disk 2 moved from B to C
-         Disk 1 moved from A to C
+        Disk 2 moved from A to B
+        Disk 1 moved from C to B
+        Disk 3 moved from A to C
+        Disk 1 moved from B to A
+        Disk 2 moved from B to C
+        Disk 1 moved from A to C
 """         
 def towerOfHanoi(n , from_rod , to_rod , help_rod):
     
