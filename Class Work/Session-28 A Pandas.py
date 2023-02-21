@@ -82,10 +82,11 @@ Index = [ 23 , 67 , 89 ]
 rating = [ 4.9 , 5.0 , 4.8 ] 
 Index = [ 23 , 67 , 89 ]
 
-def updateRatings(arr_rat,arr_index):
-    for x in range(len(arr_index)):
-        print("OLD=",rat[arr_index[x]])
-        rat[arr_index[x]]=arr_rat[x]
-        print("NEW=",rat[arr_index[x]])
+rat.update(pd.Series([ 4.9 , 5.0 , 4.8 ],index = [ 23 , 67 , 89 ]))
+# def updateRatings(arr_rat,arr_index):
+#     for x in range(len(arr_index)):
+#         print("OLD=",rat[arr_index[x]])
+#         rat[arr_index[x]]=arr_rat[x]
+#         print("NEW=",rat[arr_index[x]])
 
-updateRatings(rating,Index)
+# updateRatings(rating,Index)
