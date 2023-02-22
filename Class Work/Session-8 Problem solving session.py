@@ -72,12 +72,10 @@ def Star_square(r,c,fix):
 
     if r==0:
         return
-
     if c==0:
         print()
         c=fix
         return Star_square(r-1, c,fix)
-
     print("*",end=" ")
     return Star_square(r,c-1,fix)
 
